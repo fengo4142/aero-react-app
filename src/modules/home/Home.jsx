@@ -68,7 +68,7 @@ class Home extends Component {
       host: this.host
     };
   }
-
+  
   onInputChange = (e) => {
     this.setState({
       input: e.target.value

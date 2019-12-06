@@ -1,0 +1,40 @@
+@import '../../styles/typography';
+
+.authentication {
+  background-color: #27364B;
+  flex: 1;
+
+  .logo_container{
+     padding: 139px 0 60px 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+    .brand {
+      font-family: 'nasalization';
+      text-transform: uppercase;
+      font-size: 37px;
+      line-height: 53px;
+      letter-spacing: 1.32px;
+      padding-left: 15px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+
+  .form_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .window_sky {
+      margin-right: 82px;
+      margin-left: 111px;
+    }
+    .window_plane {
+      margin-right: 111px;
+      margin-left: 82px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+
+.backMenu {
+    min-height: 26px;
+    color: #3A61A8;
+    background-color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 26px;
+    display: flex;
+    border-bottom: 1px solid #E6EAEE;
+    padding: 19px 7.60%;
+    align-items: center;
+
+    .link {
+        cursor: pointer;
+        &:before {
+            color: #3A61A8;
+            content: "";
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.4rem;
+            border-right: 0.15rem solid #3A61A8;
+            border-top: 0.15rem solid #3A61A8;
+            -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+            top: 13px;
+
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ic/event</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17,12 L12,12 L12,17 L17,17 L17,12 Z M16,1 L16,3 L8,3 L8,1 L6,1 L6,3 L5,3 C3.89,3 3.01,3.9 3.01,5 L3,19 C3,20.1 3.89,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L18,3 L18,1 L16,1 Z M19,19 L5,19 L5,8 L19,8 L19,19 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.05.00.Home-ToDo-CreateTask-Repeat-Yearly-V1" transform="translate(-743.000000, -704.000000)">
+            <g id="Pop-up" transform="translate(336.000000, 132.000000)">
+                <g id="Base">
+                    <g id="ic/event" transform="translate(404.000000, 571.000000)">
+                        <g id="ic_event_24px">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Shape" fill-rule="nonzero"></g>
+                            <g id="c/#3A61A8/1" mask="url(#mask-2)" fill="#3A61A8">
+                                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

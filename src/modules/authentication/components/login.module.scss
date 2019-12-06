@@ -1,0 +1,120 @@
+.login_form {
+  //width: 583px;
+  width: 483px;
+  height: 484px;
+  background: white;
+  border: 1px solid #E6EAEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .welcome {
+  	height: 39px;
+  	width: 100%px;
+  	color: #242E42;
+  	font-family: Lato;
+  	font-size: 32px;
+  	font-weight: bold;
+  	letter-spacing: 0.22px;
+  	line-height: 39px;
+    text-align: center;
+    margin: 30px 0 8px;
+  }
+
+  .error {
+    color: red;
+
+    &.invalid_credentials {
+      text-align: center;
+      padding-bottom: 4px;
+    }
+  }
+
+  .empty_error {
+    height: 14px;
+  }
+  
+  .forgot_password{
+    float: right;
+    text-decoration:underline;
+    padding-bottom:30px;
+    font-size:18px;
+  }
+
+  .column_wrapper {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+
+    .form_column {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      padding: 0 33px 0 33px;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+        color: #323C47;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      input {
+        -webkit-appearance: none;
+        border: none;
+        border-bottom: 1px solid #8C9EA7;
+        height: 26px;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .divider_container {
+    display: flex;
+    flex-direction: column;
+
+    .column_divider {
+      display: flex;
+      justify-content: center;
+      flex: 1 1 auto;
+      min-height: 30%;
+
+      div {
+        display: flex;
+        border-left: 0.5px solid #8C9EA7;
+      }
+
+    }
+    span {
+      height: 25px;
+      width: 19px;
+      padding: 8px;
+      color: #242E42;
+      font-family: Lato;
+      font-size: 15px;
+      letter-spacing: 0.1px;
+      line-height: 25px;
+    }
+  }
+
+
+  .button_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+
+    .button {
+      height: 49px;
+      width: 220px;
+      background-color: #3A61A8;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

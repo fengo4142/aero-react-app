@@ -1,0 +1,154 @@
+@import '../../../../styles/typography';
+
+.autocompleteMenu {
+  position: absolute;
+  border: 1px solid #e5eaee;
+  padding: 0;
+  top: 36px;
+  border-radius: 4px;
+  width: 350px;
+  z-index: 1;
+
+  .menuItem {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    transition: background-color 0.2s ease-in-out;
+    background: white;
+
+    &.highlighted {
+      background-color: #e6eaee;
+    }
+  }
+}
+
+.fullInput {
+  flex: 1;
+  min-width: 100%;
+  position: relative;
+}
+
+.category {
+  flex: 1;
+  margin-right: 24px;
+}
+
+.priority {
+  flex: 0 1 175px;
+}
+
+.label {
+  color: #8C9EA7;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.dropzone {
+  height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #E6EAEE;
+
+  
+  .browsetext {
+      @include H2;
+      color: #E6EAEE;
+      position: absolute;
+      text-align: center;
+      padding: 0 60px;
+      margin: 0;
+      
+      button {
+          -webkit-appearance: none;
+          background: none;
+          border: none;
+          color: #8C9EA7;
+          font-size: 19px;
+          line-height: 23px;
+          letter-spacing: 0.13px;
+          font-weight: bold;
+          cursor: pointer;
+          outline: none;
+      }
+      
+  }
+}
+
+.photos {
+  display: flex;
+  height: 150px;
+  margin: 20px 0;
+  flex-wrap: nowrap;
+  overflow: auto hidden;
+  transform: translateZ(0);
+
+  .wrapper {
+    position: relative;
+    
+    div {
+      position: absolute;
+      right: 20px;
+      color: #ff5252;
+      text-shadow: 0px 1px 5px #313131;
+      font-weight: bold;
+      font-size: 30px;
+      cursor: pointer;
+      z-index: 2;
+    }
+  }
+
+  img {
+    height: 100%;
+    width: 200px;
+    border-radius: 4px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+}
+
+
+
+.fixedForInspection {
+  width: 100%;
+  position: relative;
+
+  .location {
+    float: left;
+    width: 365px;
+  }
+
+  .field {
+    width: 365px;
+    float: right;
+  }
+  .para{
+    font-size: 12px;
+    color:red;
+  }
+}
+
+.camera {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  border: none;
+  margin: 0;
+  padding: 10px 3px;
+  z-index: 2;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse; 
+  height: 20px;
+  align-items: center;
+
+  img {
+    margin-left: 10px;
+  }
+  input {
+    display: none;
+  }
+}

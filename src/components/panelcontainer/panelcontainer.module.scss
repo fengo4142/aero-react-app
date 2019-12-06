@@ -1,0 +1,23 @@
+@import '../../styles/typography';
+
+.panel {
+  // background: white;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  // border: 1px solid #E6EAEE;
+  
+  .title {
+    @include H2;
+    height: 54px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E6EAEE;
+  }
+
+  .content {
+    height: calc(100% - 54px);
+    width: 1024px;
+    margin: 0 2%;
+  }
+}

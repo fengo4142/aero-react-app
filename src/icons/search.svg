@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="19px" viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_search_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.644,17.022 L13.94,13.157 C14.982,11.774 15.609,10.034 15.609,8.143 C15.609,3.653 12.108,0 7.805,0 C3.501,0 0,3.653 0,8.143 C0,12.632 3.501,16.285 7.805,16.285 C9.491,16.285 11.05,15.717 12.328,14.765 L16.067,18.667 C16.285,18.894 16.57,19.007 16.856,19.007 C17.141,19.007 17.426,18.894 17.644,18.667 C18.079,18.213 18.079,17.477 17.644,17.022 L17.644,17.022 Z M2.229,8.143 C2.229,4.936 4.731,2.327 7.805,2.327 C10.879,2.327 13.379,4.936 13.379,8.143 C13.379,11.35 10.879,13.958 7.805,13.958 C4.731,13.958 2.229,11.35 2.229,8.143 L2.229,8.143 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/search" transform="translate(-3.000000, -2.000000)">
+            <g id="ic_search_24px" transform="translate(3.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Shape" fill-rule="nonzero"></g>
+                <g id="c/#000000/1" mask="url(#mask-2)" fill="#8c9ea7">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,89 @@
+@import '../../../styles/typography';
+
+
+.detailHeader {
+  display: flex;
+  align-self: flex-end;
+}
+
+.status {
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding: 3px 20px;
+  display: inline-block;
+}
+
+.container {
+  margin-bottom: 48px;
+}
+
+.maintenance {
+  @extend .status;
+  background-color: #FFBB12;
+}
+
+.operations {
+  @extend .status;
+  background-color: #0076FF;
+}
+
+.completed {
+  @extend .status;
+  background-color: #A6E50F;
+}
+
+.info {
+  display: flex;
+  margin: 24px 0;
+  height: 500px;
+
+  > div {
+    flex: 1;
+
+    &:first-child {
+      margin-right: 30px;
+      flex: 0 0 34%;
+    }
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 65px 0;
+  height: 107px;
+
+  span:nth-child(2) {
+    @include H4;
+    text-transform: uppercase;
+  }
+  a {
+    font-size: 15px;
+    color: #3A61A8;
+    text-decoration: none;
+  }
+
+  &Maintenance {
+    @include H1;
+    color: #FFBB12;
+  }
+  &Operations {
+    @include H1;
+    color: #0076FF;
+  }
+  &Completed {
+    @include H1;
+    color: #A6E50F;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}

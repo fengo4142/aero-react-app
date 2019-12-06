@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="61px" viewBox="0 0 77 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00.Login" transform="translate(-245.000000, -106.000000)">
+            <g id="Logo" transform="translate(247.000000, 108.000000)">
+                <path d="M48.9961679,57 L21.4695434,34.4677385 L6.26195779,34.4677385 C6.11972214,34.4784736 5.97748648,34.4686331 5.83167258,34.4677385 C3.65430414,34.4570033 1.57444317,33.3977982 0.645885879,31.4287861 C-1.39998167,27.089087 1.71131144,22.8379533 5.81467586,22.8379533 C5.96585715,22.8379533 6.11346019,22.8272181 6.26195779,22.8379533 L58.1466617,22.8379533 L68.3062234,14.6443223 C70.1928586,13.1235042 73,14.4654025 73,16.8888708 L73,22.8379533" id="Stroke-1" stroke="#FFFFFF" stroke-width="4"></path>
+                <g id="Group-6" transform="translate(20.000000, 0.000000)">
+                    <polyline id="Fill-3" fill="#000000" points="0 22.3506923 23.987871 3.40488462 28 0.235307692"></polyline>
+                    <polyline id="Stroke-5" stroke="#FFFFFF" stroke-width="4" points="0 22.3506923 23.987871 3.40488462 28 0.235307692"></polyline>
+                </g>
+                <path d="M37,34 L71,34" id="Stroke-7" stroke="#FFFFFF" stroke-width="4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

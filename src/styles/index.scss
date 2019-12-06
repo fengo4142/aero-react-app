@@ -1,0 +1,196 @@
+@import './_typography.scss';
+@import './_forms.scss';
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+/****************************************************/
+/*************** FONT FACE DECLARATION **************/
+/****************************************************/
+@font-face {
+    font-family: "nasalization";
+    src: url('./fonts/nasalization-rg.ttf');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('./fonts/Lato/Lato-Light.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('./fonts/Lato/Lato-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('./fonts/Lato/Lato-Semibold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('./fonts/Lato/Lato-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('./fonts/Lato/Lato-Black.ttf');
+    font-weight: 800;
+}
+
+html, body, #root, .app-container{
+    height: 100%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato';
+    background-color: #FAFBFD;
+    color: #242E42;
+}
+
+.green {
+    background: #A6E50F !important;
+    border: 2px solid #E7F2FC !important;
+    border-radius: 50%;
+}
+
+.blue {
+    background: #3A61A8 !important;
+    border: 2px solid #E7F2FC !important;
+    border-radius: 50%;
+}
+
+.primary-btn {
+    height: 33px;
+    border-radius: 23px;
+    color: white;
+    background-color: #A6E52F;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+    line-height: 33px;
+    letter-spacing: 0.09px;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leaflet-popup-content {
+    width: calc(100% - 38px) !important;
+}
+.leaflet-popup-content-wrapper {
+    border-radius: 4px !important;
+}
+
+.leaflet-popup-close-button {
+    display: none;
+}
+
+.main-header {
+    max-height: 120px;
+    transition: max-height 0.2s ease-in-out;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    &.collapsed {
+        max-height: 0;
+    }
+}
+
+.leaflet-google-mutant {
+    height: 100% !important;
+}
+
+textarea {
+    padding: 6px 12px;
+}
+
+* {
+    outline-color: #c5cfe4;
+}
+
+:global {
+    .leaflet-div-icon.leaflet-marker-icon {
+        border: none;
+    }
+
+    .leaflet-edit-marker-selected {
+        background-color: rgba(254,87,161,0.1) !important;
+        border: 4px dashed rgba(254,87,161,0.6) !important;
+    }
+    
+
+    .rdtPicker {
+        padding: 10px 20px !important;
+        width: 280px !important;
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+
+            .dow {
+                color: #757575;
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .rdtOld {
+                color: #999999;
+                opacity: 0;
+                border: none;
+                pointer-events: none;
+                cursor: none;
+            }
+            td {
+                border: 1px solid #e4e7e7;
+                color: #484848;
+                background: #fff;
+                box-sizing: border-box;
+                cursor: pointer;
+                font-size: 14px;
+                text-align: center;
+                height: 38px;
+
+                &.rdtActive, &.rdtActive:hover {
+                    background-color: #3A61A8;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+ .selectedMarker {
+    border: 4px dashed rgba(254,87,161,0.6) !important;
+    border-radius: 4px;
+    margin-left: -19px !important;
+    margin-top: -14px !important;
+ }
+
+.collapsible_collapsible__3Yp-u .collapsible_header__2ln5U.collapsible_title__nDTh-{
+     font-size:18px;
+     margin:10px;
+ }
+
+ .AppPrivileges_appPriviliges__3NEfi{
+    background:white!important;
+    margin:0!important;
+}
+ .modal-content {
+  border: none !important;
+}

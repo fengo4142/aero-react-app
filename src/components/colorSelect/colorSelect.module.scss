@@ -1,0 +1,112 @@
+.select {
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+
+    &:not(.bordered) {
+        .selected {
+            border-bottom: none !important;
+            position: relative;
+            display: inline-block;
+
+            &:after {
+                content: '';
+                display: inline-block;
+                width: .5em;
+                height: .5em;
+                border-bottom: 2px solid #242E42;
+                border-right: 2px solid #242E42;
+                position: absolute;
+                right: -10px;
+                top: 12px;
+                transition: transform 0.1s ease-in-out;
+                transform: rotate(45deg);
+            }
+        }
+
+        .dropdown {
+            top: 56px;
+            border-radius: 4px;
+        }
+    }
+
+    &.bordered {
+        background: #fff;
+        border: 1px solid #DCE0E6;
+    }
+
+  &.active {
+      
+      .selected {
+        border-bottom: 1px solid #DCE0E6;
+        &:after {
+            transform: rotate(-135deg);
+            top: 15px;
+        }
+      }
+  }
+
+  .option {
+      padding: 10px;
+      &:hover {
+          background: #f1f1f1;
+      }
+  }
+
+  .option, .selected {
+    span {
+        width: 15px;
+        height: 15px;
+        border-radius: 4px;
+        display: inline-block;
+        margin-right: 10px;
+        top: 2px;
+        position: relative;
+        
+        &.image {
+            width: 30px;
+            height: 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            top:8px;
+            background-position: center;
+        } 
+      }
+
+  }
+
+  .selected {
+    line-height: 36px;
+    padding: 0px 20px;
+    color: #242E42;
+    font-size: 15px;  
+    display:flex;
+
+    &:after {
+        content: '';
+        position: absolute;
+        right: 5px;
+        top: 10px;
+        width: 8px;
+        height: 8px;
+        border-bottom: 2px solid #242E42;
+        border-right: 2px solid #242E42;
+        transform: rotate(45deg);
+        transition: transform 0.2s;
+    }
+  }
+}
+
+.dropdown {
+    position: absolute;
+    background: white;
+    width: 100%;
+    border: 1px solid #DCE0E6;
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+    left: -1px;
+    font-size: 15px;
+    color: #242E42;
+    z-index: 9999;
+}

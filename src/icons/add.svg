@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_add_circle_outline_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6 0 4 0 4 4 0 4 0 6 4 6 4 10 6 10 6 6 10 6 10 4 6 4"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/add" transform="translate(-7.000000, -7.000000)">
+            <g id="ic_add_circle_outline_24px" transform="translate(7.000000, 7.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Shape" fill-rule="nonzero"></g>
+                <g id="c/#000000/1" mask="url(#mask-2)" fill="#8c9ea7">
+                    <g transform="translate(-7.000000, -7.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

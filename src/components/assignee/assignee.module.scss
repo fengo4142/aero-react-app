@@ -1,0 +1,31 @@
+@import '../../styles/typography';
+
+.assign {
+  margin-bottom: 12px;
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.autocompleteMenu {
+  position: absolute;
+  border: 1px solid #e5eaee;
+  padding: 0;
+  top: 36px;
+  border-radius: 4px;
+  width: 100%;
+  z-index: 1;
+
+  .menuItem {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    transition: background-color 0.2s ease-in-out;
+    background: white;
+
+    &.highlighted {
+      background-color: #e6eaee;
+    }
+  }
+}

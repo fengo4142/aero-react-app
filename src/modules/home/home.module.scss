@@ -1,0 +1,57 @@
+@import '../../styles/typography';
+
+.home {
+  display: flex;
+  justify-content: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 470px;
+
+    form {
+      width: 100%;
+      text-align: center;
+      position: relative;
+      .spinner {
+        position: absolute;
+        top: 37px;
+        right: 0px;
+      }
+    }
+
+    .response {
+      width:100%;
+      min-height: 42px;
+      transition: all 0.2s;
+      p {
+        @include H2;
+        margin-bottom: 0;
+      }
+    }
+
+  
+    input {
+      margin: 28px -20px;
+      width: 100%;
+      border: 2px solid #E9EFF4;
+      border-radius: 4px;
+      height: 40px;
+      line-height: 26px;
+      font-size: 15px;
+      padding: 0 12px;
+    }
+
+    button {
+      background-color:#3A61A8;
+      border-radius: 5px;
+      width: 180px;
+      height:50px;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+  }
+}

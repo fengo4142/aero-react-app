@@ -1,0 +1,30 @@
+.button {
+  appearance: none;
+  outline: none;
+  border: none;
+  height: 33px;
+  border-radius: 23px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 20px;
+  line-height: 33px;
+  letter-spacing: 0.09px;
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+
+  &.primary {
+    background-color: #A6E52F;
+  }
+  &.secondary {
+    background-color: #3A61A8;
+  }
+  &.tertiary {
+    background-color: #E6EAEE;
+    color: #8C9EA7;
+  }
+  &.danger {
+    background-color: #ec1c58;
+  }
+}

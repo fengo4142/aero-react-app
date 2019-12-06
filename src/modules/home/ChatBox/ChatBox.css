@@ -1,0 +1,105 @@
+/* .ChatBoxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+.Messages-list {
+  padding: 20px 0;
+  width: 100%;
+  margin: -20px auto 0;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: hidden;
+  /* transform: rotate(180deg); */
+}
+
+.chatboxContainer{
+  margin-top:20px;
+  max-height: 340px;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  overflow-y: auto;
+  /* transform: rotate(180deg); */
+}
+
+/* .chatboxContainer:hover {
+  overflow-y: scroll;
+} */
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 5px;
+  height:10px
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #3a61a8;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(226,43,74,0.4);
+}
+
+.Messages-message {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Messages-message.currentMember {
+  /* justify-content: flex-end; */
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.Message-content {
+  display: inline-block;
+}
+
+.currentMember > .Message-content {
+  align-items: flex-end;
+}
+
+.Messages-message > .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px -10px;
+  padding: 20px;
+}
+
+.Message-content > .username {
+  display: block;
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+/*//TODO breaks select styles*/
+.text {
+  /*padding: 10px;*/
+  /*max-width: 400px;*/
+  /*margin: 0;*/
+  /*border-radius: 8px;*/
+  /*background-color: cornflowerblue;*/
+  /*color: white;*/
+  /*display: inline-block;*/
+  /*margin: 1px;*/
+}
+
+.currentMember > .Message-content .text {
+  background-color: #e9eff4;
+  color:#000;
+}

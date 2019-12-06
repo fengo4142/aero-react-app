@@ -1,0 +1,73 @@
+@import './typography';
+
+.table {
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 1px solid #E6EAEE;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: #242E42;
+
+  thead {
+    @include H4;
+    text-transform: uppercase;
+    line-height: 66px;
+
+    th {
+      border-bottom: 1px solid #E6EAEE;
+      padding: 0 24px;
+    }
+  }
+
+  tbody {
+    tr {
+      position: relative;
+      &:hover {
+        background: #FAFBFD;
+
+        td:last-child {
+          a { opacity: 1;}
+        }
+      }
+    }
+  }
+
+  td {
+    height: 58px;
+    border-bottom: 1px solid #E6EAEE;
+    padding: 0 24px;
+
+    &:last-child {
+      a { opacity: 0; }
+    }
+  }
+
+  .date {
+    font-size: 13px;
+  }
+
+  .subtitle {
+    color: #8C9EA7;
+    margin-top: 5px;
+  }
+
+  &.evenWidth {
+    table-layout: fixed;
+    margin: 10px 0;
+  }
+}
+
+.forbidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link {
+  color: #3A61A8;
+  cursor: pointer;
+}

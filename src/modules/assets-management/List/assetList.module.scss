@@ -1,0 +1,92 @@
+@import '../../../styles/typography';
+
+.detailHeader {
+  display: flex;
+  align-self: flex-end;
+}
+
+.filter {
+  background: white;
+  height: 60px;
+  display: flex;
+  flex-shrink: 0;
+  border-bottom: 1px solid #ecf1f5;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.panel {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #e6eaee;
+  border-radius: 4px;
+  background: white;
+  
+  .group {
+    position: relative;
+  }
+
+  .title {
+    @include H3;
+    border: 1px solid #e6eaee;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.assetTable {
+  margin: 0 auto;
+  width: 50%;
+  max-width: 1250px;
+} 
+
+.table {
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 1px solid #E6EAEE;
+
+  thead {
+    @include H4;
+    text-transform: uppercase;
+    line-height: 66px;
+
+    th {
+      border-bottom: 1px solid #E6EAEE;
+      padding: 0 24px;
+    }
+  }
+
+  tbody {
+    tr {
+      position: relative;
+      
+      td {
+        height: 50px;
+        border-bottom: 1px solid #E6EAEE;
+        padding: 0 24px;
+      }
+
+      &:hover {
+        background: #FAFBFD;
+
+      }
+    }
+  }
+}
+.count {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+  color: #8C9EA7;
+  font-size: 14px;
+}
+
+.allAssets {
+  @include H2;
+  margin-right: 15px;
+  display: inline-block;
+}

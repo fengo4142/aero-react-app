@@ -1,0 +1,45 @@
+  .iconDetails {
+    margin-left: 0px;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .container1{
+    background:#fff;
+    padding:20px;
+    border-radius:8px;
+    border:1px solid #e6eaee;
+    margin:-60px 0 0 10px;
+  }
+
+    
+  .container2 {
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    h3, h5, h4 {
+      line-height: 2rem;
+    }
+    h3 span {
+      float: right;
+      font-size: 14px;
+      color: #3960a8;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+      }
+    }
+    h5 {
+      color: #afafaf;
+    }
+  }
+
+  .container3{
+    margin-left:60px;
+  }
+
+.accessTime{
+  color:#aaa;
+}

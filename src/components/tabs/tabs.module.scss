@@ -1,0 +1,28 @@
+.tabs {
+  .head {
+    height: 54px;
+    display: flex;
+    border-bottom: 1px solid #e6eaee;
+
+    > * {
+      margin: 0 18px;
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid transparent;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      color: #8C9EA7;
+
+      &.active {
+        border-color: #3A61A8;
+        font-weight: bold;
+        color: #242E42;
+      }
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+}

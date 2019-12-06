@@ -1,0 +1,24 @@
+@import '../../styles/typography';
+
+.panel {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #E6EAEE;
+  
+  .title {
+    @include H2;
+    height: 54px;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E6EAEE;
+      span.titleIcon{
+        color:red!important;
+        float: right;
+      }
+  }
+
+  .content {
+    height: calc(100% - 54px);
+  }
+}

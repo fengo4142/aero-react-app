@@ -1,0 +1,42 @@
+.modal {
+  transition: opacity 0.2s ease-in-out;
+  display: flex;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  
+  .overlay {
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(36, 46, 66, 0.35)
+  }
+  
+  .content {
+    z-index: 10000;
+    overflow: visible;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  
+  .dialog {
+    position: relative;
+    outline: 0;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    max-width: auto;
+    cursor: default;
+    border-radius: 4px;
+  }
+}

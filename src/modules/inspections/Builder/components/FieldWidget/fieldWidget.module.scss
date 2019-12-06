@@ -1,0 +1,80 @@
+.fieldWidget {
+  display: flex;
+  width: 80%;
+  margin: 32px auto;
+  flex-wrap: wrap;
+
+  label {
+    margin-bottom: 12px;
+  }
+  .col {
+    flex: 1;
+
+    + .col {
+      margin-left: 38px;
+    }
+  }
+
+  .extra {
+    flex: 1 1 100%;
+  }
+
+  .showTime label {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 35px;
+    justify-content: flex-end;
+
+    span {
+      margin-left: 10px;
+    }
+  }
+
+  .inlineCheckbox label{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+:global {
+  .react-tagsinput {
+    border-color: #e6eaee;
+    border-radius: 4px;
+
+    &--focused {
+      border-color: #3A61A8;
+    }
+
+    &-tag {
+      background-color: #3A61A8;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 2px 15px;
+    }
+
+    &-input {
+      width: 180px;
+    }
+
+    &-remove {
+      // background: white;
+      border-radius: 50%;
+      position: relative;
+      right: -8px;
+      top: 4px;
+      width: 15px;
+      height: 15px;
+      color: #3A61A8;
+      display: inline-block;
+
+      &:before {
+        position: absolute;
+        top: -6px;
+        right: 4px;
+      }
+
+    }
+  }
+}

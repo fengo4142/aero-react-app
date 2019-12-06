@@ -1,0 +1,244 @@
+@import '../../../styles/typography';
+
+.detailHeader {
+  display: flex;
+  align-self: flex-end;
+}
+
+.print_pdf_btn {
+  position: absolute;
+  top:150px;
+  right:100px;
+}
+
+.collapsibleHeader {
+  height: 36px;
+  outline-color: #c5cfe4;
+  background: white;
+  margin: 10px 0 48px 0;
+  padding: 10px 20px;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #E6EAEE;
+  border-radius: 0;
+  color: #242E42;
+  font-family: Lato;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.13px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+}
+
+.mainPanel {
+  width: 100%;
+  max-width: 930px;
+  margin: 13px auto;
+  
+  .panelContent {
+    margin: 0px 85px 40px;
+  }
+
+  .sectionHeader {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.13px;
+    line-height: 23px;
+    padding: 15px 21px;
+    border: 1px solid #E6EAEE;
+    margin-top: 22px;
+  }
+
+  .requestInfo {
+    display: flex;
+
+    .infoTable {
+      flex: 1;
+
+      .infoRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 16px 20px 15px;
+        border: 1px solid #E6EAEE;
+        border-top: none;
+
+        .title {
+          color: #8C9EA7;
+          // font-family: Lato;
+          font-size: 13px;
+          letter-spacing: 1.86px;
+          line-height: 16px;
+          text-transform: uppercase;
+        }
+
+        .rowContent {
+          // color: #242E42;
+          // font-family: Lato;
+          font-size: 15px;
+          letter-spacing: 0.1px;
+          line-height: 25px;
+          text-align: right;
+          // margin-right: 15px;
+        }
+      }
+    }
+
+    .infoMap {
+      flex: 1;
+    }
+  }
+
+  .requestInfoField {
+    padding: 18px 16px;
+    border: 1px solid #E6EAEE;
+    border-top: none;
+
+    .title {
+      color: #8C9EA7;
+      font-size: 13px;
+      letter-spacing: 1.86px;
+      line-height: 16px;
+      text-transform: uppercase;
+    }
+
+    .content {
+      font-size: 15px;
+      color: #242E42;
+      letter-spacing: 0.1px;
+      line-height: 25px;
+      margin-top: 20px;
+    }
+   
+    .photos {
+      display: flex;
+      height: 150px;
+      margin: 20px 0;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+
+      img {
+        height: 100%;
+        width: 200;
+        border-radius: 4px;
+        margin: 0 10px;
+      }
+    }
+    .photo {
+      display: flex;
+      height: 150px;
+      margin: 20px 0;
+      flex-wrap: nowrap;
+      //overflow-x: scroll;
+
+      img {
+        height: 100%;
+        width: 330px;
+        border-radius: 4px;
+        width: 200;
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .stepForm {
+    margin-top: 22px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 95px;
+    border-top: 1px solid #E6EAEE;
+  }
+
+  .separator {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .stepInfo {
+    display: flex;
+    border: 1px solid #E6EAEE;
+    border-bottom: none;
+    flex-wrap: wrap;
+    margin-top: 23px;
+
+
+    &.noMarginTop {
+      margin-top: 0;
+      border-top: none;
+    }
+
+    .infoHalf {
+      flex: 1 0 45%;
+      justify-content: space-between;
+      align-content: center;
+      border-bottom: 1px solid #E6EAEE;
+      display: flex;
+      padding: 0 16px;
+      
+      p {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top:13px ;
+        margin-bottom:15px
+      }
+
+      i {
+        font-style: normal;
+        margin-right: 10px;
+        display: block;
+      }
+
+      + .infoHalf {
+        border-left: 1px solid #E6EAEE;
+      }
+
+    }
+
+    span {
+      @include H4;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+
+    .infoFull {
+      width: calc(100% - 32px);
+      border-bottom: 1px solid #E6EAEE;
+      padding: 16px;
+    }
+
+    .images {
+      display: flex;
+      height: 150px;
+      margin: 20px 0;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+
+      img {
+        height: 100%;
+        width: auto;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.workimg{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;  
+  // z-index: 1;
+}

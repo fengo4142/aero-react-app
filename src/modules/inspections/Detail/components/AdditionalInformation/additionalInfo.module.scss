@@ -1,0 +1,25 @@
+.additionalInfo {
+  margin-top: 10px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #E6EAEE;
+  color: #242E42;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .field {
+    .title {
+      font-weight: bold;
+    }
+
+    .info {
+      margin: 20px 0;
+    }
+
+    flex-basis: calc(50% - 40px);
+    flex-shrink: 0;
+    margin: 20px;
+    border-bottom: 1px solid #E6EAEE;
+  }
+}

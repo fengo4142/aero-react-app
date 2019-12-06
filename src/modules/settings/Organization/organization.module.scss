@@ -1,0 +1,104 @@
+@import '../../../styles/typography';
+
+.form {
+    width: 930px;
+    margin: 20px auto;
+    background: white;
+    border: 1px solid #E6EAEE;
+    border-radius: 5px;
+    padding: 50px 60px 100px;
+    display: flex;
+
+    .column {
+        flex: 1;
+        padding: 0 18px;
+    }
+
+    label, .logo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+
+        &[for="code"] {
+            input {
+                width: 170px;
+            }
+        }
+    }
+
+    .logo {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    
+    .editor {
+        border: 4px dashed #E6EAEE;
+        background-color: #F9FBFC;
+        border-radius: 5px;
+    }
+
+    .dropzone {
+        width: 400px;
+        height: 300px;
+        transform: translateX(-50%);
+        left: 50%;
+        display: flex;
+        align-items: center;
+
+        
+        .browsetext {
+            @include H2;
+            color: #E6EAEE;
+            position: absolute;
+            text-align: center;
+            padding: 0 60px;
+            margin: 0;
+            
+            button {
+                -webkit-appearance: none;
+                background: none;
+                border: none;
+                color: #8C9EA7;
+                font-size: 19px;
+                line-height: 23px;
+                letter-spacing: 0.13px;
+                font-weight: bold;
+                cursor: pointer;
+                outline: none;
+            }
+            
+        }
+
+        &.hasImage {
+            .browsetext {
+                color: black;
+                align-self: flex-end;
+                bottom: -32px;
+                font-size: 14px;
+                padding: 0 10px;
+                width: 100%;
+
+                button {
+                    font-size: 14px;
+                }
+            }
+
+            & + .helptext {
+                margin-top: 30px;
+            }
+        }
+    }
+    .helptext {
+        @include P5;
+        padding: 18px;
+        text-align: center;
+    }
+
+    .success {
+        color: #9CD610;
+        display: block;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

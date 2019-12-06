@@ -1,0 +1,125 @@
+@import '../../../styles/typography';
+
+.map {
+    width: 100%;
+    flex: 1;
+
+}
+
+.toolbar {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    button {
+        color: #3A61A8;
+        text-decoration: none;
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 15px;
+        font-family: 'Lato';
+        outline: none;
+
+
+        &:before {
+            position: relative;
+            content: "";
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.4rem;
+            border-right: 0.15rem solid #3A61A8;
+            border-top: 0.15rem solid #3A61A8;
+            margin-right: 0.3rem;
+            transform: rotate(225deg);
+        }
+    }
+
+    .selector {
+        width: 500px;
+        display: flex;
+        align-items: center;
+
+        > div {
+            flex-basis: 145px;
+            margin-right: 10px;
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .typeSelector {
+        width: 145px;
+    }
+}
+
+.popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 280px;
+    background: #FAFBFD;
+    z-index: 999;
+    padding: 20px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    h3 {
+        @include H3Black;
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        color: #8C9EA7;
+    }
+
+    input {
+        height: 36px;
+        padding: 0px 10px;
+        border-radius: 4px;
+        -webkit-appearance: none;
+        border: 1px solid rgb(220, 224, 230);
+        font-size: 15px;
+        margin-top: 5px;
+
+        &[type="submit"] {
+            height: 33px;
+            width: 148px;
+            border-radius: 23px;
+            color: white;
+            background-color: #A6E52F;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 25px;
+            letter-spacing: 0.09px;
+            align-self: flex-end;
+            margin-top: 20px;
+        }
+    }
+}
+
+.tooltip {
+    width: 250px;
+    bottom: 30px !important;
+    &Header {
+        border-bottom: 2px solid #3A61A8;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0 5px;
+
+        a {
+            bottom: 5px;
+            position: relative;
+        }
+    }
+    h4, p {
+        margin: 0;
+        color: #3A61A8;
+    }
+}

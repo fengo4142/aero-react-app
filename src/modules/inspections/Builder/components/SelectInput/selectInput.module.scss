@@ -1,0 +1,70 @@
+.select {
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+
+    border: 1px solid #DCE0E6;
+    border-radius: 4px;
+    
+    .selected {
+        border-bottom: none !important;
+        position: relative;
+        height: 36px;
+        line-height: 36px;
+        padding: 0px 36px;
+        color: #8C9EA7;
+        font-size: 15px;
+
+
+        &:after {
+            content: '';
+            width: .45em;
+            height: .45em;
+            border-bottom: 2px solid #8C9EA7;
+            border-right: 2px solid #8C9EA7;
+            position: absolute;
+            right: 20px;
+            top: 12px;
+            transition: transform 0.1s ease-in-out;
+            transform: rotate(45deg);
+        }
+    }
+
+    .dropdown {
+        border-radius: 4px;
+        position: relative;
+        background: white; 
+        width: 100%;
+        border: 1px solid #DCE0E6;;
+        left: -1px;
+        font-size: 15px;
+        color: #8C9EA7;
+        z-index: 9999;
+        border-bottom: none;
+    }
+
+    .wrapper {
+        position: relative;
+        height: 0;
+    }
+
+    &.active {
+        
+        .selected {
+            &:after {
+                transform: rotate(-135deg);
+                top: 16px;
+            }
+        }
+    }
+
+    .option {
+        padding: 5px 10px;
+        border-bottom: 1px solid #E6EAEE;
+        &:hover {
+            background: #f1f1f1;
+        }
+    }
+
+}

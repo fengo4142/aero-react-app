@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="35px" viewBox="0 0 29 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Sign-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.12733111,4.27833176 L5.13641749,1.20233812 C6.16577181,2.25449766 6.4481114,3.78117441 5.98343628,5.09368623 L7.933012,7.0866307 L11.5038354,3.43644573 L10.2614464,2.16640328 L10.2468971,2.18127535 L8.11956596,0.00675662565 L12.3610645,0.00675662565 L12.3676742,0 L16.377384,4.098866 L17.1683232,3.29034019 L19,5.16274448 L15.3052672,8.93962997 L13.4735904,7.06722568 L14.2645842,6.25864399 L13.6804918,5.66155064 L10.1096822,9.31172143 L15.45394,14.7748635 L13.2774259,17 L7.93301955,11.5367604 L2.61096011,16.9771025 L0.434334738,14.751966 L5.75633854,9.31168071 L3.80678554,7.31877925 C2.52283997,7.79380691 1.02938708,7.50519432 2.22547454e-05,6.45294149 L0,2.10381303 L2.12733111,4.27833176 Z M0.881822031,1.20233812 L5.13637298,1.20233812 L3.00915314,3.37685685 L0.881822031,1.20233812 Z" id="path-1"></path>
+    </defs>
+    <g id="Operations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01.04.04.01.-Operations-Work-Orders-Create-Work-Order-Maintenance-Review" transform="translate(-936.000000, -596.000000)">
+            <g id="Form" transform="translate(255.000000, 264.000000)">
+                <g id="Step-1" transform="translate(96.000000, 136.000000)">
+                    <g id="Sign-2" transform="translate(585.000000, 196.000000)">
+                        <path d="M20.7487373,29 L15.6066017,34.1421356 C15.2160774,34.5326599 14.5829124,34.5326599 14.1923882,34.1421356 L9.05025253,29 L4,29 C1.790861,29 2.705415e-16,27.209139 0,25 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 L25,0 C27.209139,-4.05812251e-16 29,1.790861 29,4 L29,25 C29,27.209139 27.209139,29 25,29 L20.7487373,29 Z" id="Combined-Shape" fill="#3A61A8" fill-rule="nonzero"></path>
+                        <g id="ic/directions_walk" transform="translate(3.000000, 2.000000)">
+                            <g id="ic_directions_walk_24px" transform="translate(3.000000, 3.000000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Shape" fill-rule="nonzero"></g>
+                                <g id="c/#FFFFFF/1" mask="url(#mask-2)" fill="#FFFFFF">
+                                    <g transform="translate(-4.470588, -5.666667)" id="Rectangle">
+                                        <rect x="0" y="0" width="27" height="27"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

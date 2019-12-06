@@ -1,0 +1,60 @@
+.inspectionChecklistContainer {
+  flex: 1;
+
+  .submissionError {
+    text-align: right;
+    padding: 10px 20px;
+    color: red;
+    font-size: 14px;
+  }
+}
+
+.inspectionChecklist {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+
+  .checklist {
+    display: flex;
+    flex-direction: column;
+    max-width: 832px;
+    flex: 1 1 832px;
+    margin-top: 24px;
+    margin-right: 24px;
+
+    .title {
+      height: 34px;
+      color: #242E42;
+      font-family: Lato;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 0.19px;
+      line-height: 34px;
+      border-bottom: 1px solid #E6EAEE;
+      margin-bottom: 17.5px;
+      padding-bottom: 6.5px;
+    }
+  }
+}
+
+.statusDot {
+  height: 13px;
+  width: 13px;
+  min-height: 13px;
+  min-width: 13px;
+  display: inline-block;
+  border-radius: 7px;
+  margin: 0 43px;
+
+  &.success {
+    background-color: #A6E50F;
+  }
+
+  &.failure {
+    background-color: #F1592A;
+  }
+
+  &.untouched {
+    background-color: #e6eaee;
+  }
+}

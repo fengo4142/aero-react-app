@@ -1,0 +1,32 @@
+.workOrderInfoContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e6eaee;
+  border-radius: 4px;
+  padding: 5px 15px;
+  margin: 7px 0;
+
+  .workorderId {
+    color: #242E42;
+    font-family: Lato;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    flex-basis: 10%
+
+    a {
+      margin-left: 5px;
+    }
+  }
+  .workorderDescription {
+    flex: 1;
+    margin: 0 10px;
+  }
+  .workorderStatus {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 26px;
+    flex-basis: 19%;
+  }
+}

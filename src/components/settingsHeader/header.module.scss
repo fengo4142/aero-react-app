@@ -1,0 +1,73 @@
+@import '../../styles/_typography';
+
+.header {
+    height: 85px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 1px solid #E9EFF4;
+    flex-shrink: 0;
+
+    .title {
+        position: absolute;
+        bottom: 8px;
+        left: 15px;
+        display: flex;
+        h1 {
+            @include black;
+        }
+        img {
+            margin-right: 15px;
+            width: 55px;
+            height: 60px;
+            align-self: flex-end;
+        }
+    }
+    .navigation {
+        display: flex;
+        a {
+            @include body;
+            text-decoration: none;
+            margin: 0 18px;
+
+            &.active {
+                color: #242E42;
+                font-weight: bold;
+                border-bottom: 2px solid #3A61A8;
+                padding-bottom: 12px;
+            }
+        }
+    }
+
+    .hideArrow {
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        background: none;
+        border: none;
+        padding: 0;
+        color: transparent;
+        outline:none;
+        transition: transform 0.2s ease-in-out;
+
+        &:before {
+            position: relative;
+            content: "";
+            display: inline-block;
+            width: 0.4rem;
+            height: 0.4rem;
+            border-right: 0.15rem solid black;
+            border-top: 0.15rem solid black;
+            transform: rotate(315deg);
+            top: 13px;
+        }
+
+        &.collapsed {
+            transform: rotate(180deg);
+        }
+    }
+}

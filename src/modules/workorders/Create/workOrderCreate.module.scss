@@ -1,0 +1,47 @@
+.form {
+  margin-top: 15px;
+  max-width: 950px;
+
+  .content {
+    padding: 23px 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+
+    &.embedded {
+      padding: 0px 33px;
+    }
+  }
+
+  .separator {
+    margin-top: 24px;
+    width: 100%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 95px;
+    border-top: 1px solid #E6EAEE;
+
+    &.embedded {
+      padding: 20px 33px;
+      border: none;
+
+    }
+  }
+
+  .spinner {
+    margin-right: 20px;
+  }
+
+  .errors {
+    color: #F1592A;
+    line-height: 32px;
+    padding: 0 20px;
+  }
+}
+.cancelButton {
+  margin-right:40px;
+}

@@ -1,0 +1,25 @@
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  
+  button {
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 26px;
+    color: #8C9EA7;
+  }
+
+  .active {
+    color: #3A61A8;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,72 @@
+.field {
+  flex: 0 1 365px;
+  margin-bottom: 12px;
+  flex-direction: column;
+  display: flex;
+
+  .title {
+    color: #8C9EA7;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  input:not([type="radio"]):not([type="checkbox"]), textarea {
+    border: 1px solid #E6EAEE;
+    border-radius: 4px;
+    height: 30px;
+    color: #242E42;
+    font-family: Lato;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    padding: 0 10px;
+    width: calc(100% - 20px);
+    margin-left: 5px;
+  }
+
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  textarea {
+    height: initial;
+    resize: none;
+  }
+
+  select {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    padding: 0px 10px;
+    color: #8C9EA7;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    border: 1px solid #DCE0E6;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+
+  small {
+    color: red;
+  }
+
+  .viewMap {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    color: #3A61A8;
+    font-size: 14px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .map {
+    height: 300px;
+  }
+}

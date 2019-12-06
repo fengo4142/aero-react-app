@@ -1,0 +1,54 @@
+
+.workOrderSettings {
+  width: 930px;
+  margin: 20px auto;
+  background: white;
+  border: 1px solid #E6EAEE;
+  border-radius: 5px;
+  padding: 50px 60px 100px;
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  
+  .content {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 50px;
+    
+    .inspection {
+      position: relative;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex: 0 0 calc(50% - 50px);
+      cursor: pointer;
+      border-radius: 4px;
+
+      img {
+        margin-right: 20px;
+      }
+    }
+    .active {
+      background: #E8EFF5;
+      font-weight: bold;
+    }
+  }
+
+  .spinner {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  
+  .success {
+    color: #9CD610;
+    font-weight: 400;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+}

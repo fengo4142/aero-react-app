@@ -1,0 +1,40 @@
+.submittedContainer {
+  height: 668px;
+  width: 930px;
+  margin: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #E6EAEE;
+
+  img {
+    width: 157px;
+    height: 157px;
+  }
+
+  .inspectionName {
+    color: #242E42;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.19px;
+    line-height: 34px;
+    margin: 10px 0 36px;
+  }
+
+  .submitted_msg {
+    color: #242E42;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.19px;
+    line-height: 34px;
+    text-align: center;
+    margin: 0 268px 48px;
+  }
+}

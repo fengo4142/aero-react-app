@@ -1,0 +1,46 @@
+@import '../../styles/typography';
+
+
+.collapsible {
+  // margin-bottom: 48px;
+  .content {
+    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .title {
+    //height: 36px;
+    outline-color: #c5cfe4;
+    background: white;
+    border: 1px solid #E6EAEE;
+    @include H1;
+    margin: 0;
+    border-radius: 4px;
+  }
+  
+  .header {
+    position: relative;
+    padding: 10px 20px;
+    &:after {
+      content: '';
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+      width: 0.5rem;
+      height: 0.5rem;
+      border-right: 0.20rem solid #607D8B;
+      border-top: 0.20rem solid #607D8B;
+      top: 50%;
+      left:680px;
+      transform: translateY(-50%) rotate(135deg);
+      right: -12px;
+    }
+  
+    &.open {
+      &:after {
+        transform: translateY(-50%) rotate(315deg);
+        top: calc(50% + 5px);
+      }
+    }
+  }
+}

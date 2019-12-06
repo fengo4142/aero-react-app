@@ -1,0 +1,14 @@
+.shortcuts {
+    display: flex;
+    height: 53px;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: #F4F7F9;
+
+    a {
+        text-decoration: none;
+        color: #8C9EA7;
+        font-size: 14px;
+        margin: 0 30px 0 15px;
+    }
+}

@@ -1,0 +1,37 @@
+.channels-posts{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.form-container{
+    width: 400px;
+    margin: auto;
+}
+.custom-error-message{
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 0 1em 0 !important;
+}
+.home-screen{
+    margin: 0 !important;
+}
+
+.active-channel{
+    color: #00b5ad !important;
+}
+
+.no-border{
+    border: none !important;
+    border-radius: unset !important;
+    box-shadow: none !important;
+}
+
+.posts-height{
+    height: 600px !important;
+    overflow: auto;
+}
+
+.no-padding-botton{
+    padding-bottom: 0px !important;
+}

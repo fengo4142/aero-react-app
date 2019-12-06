@@ -1,0 +1,64 @@
+$main-color: #3A61A8;
+
+.topbar {
+    background: $main-color;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .menuBtn {
+        cursor: pointer;
+        outline: none;
+        text-transform:capitalize;
+    }
+
+    a {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .separator {
+        width: 1px;
+        height: 36px;
+        background: rgba(233, 239, 244, 0.6);
+        margin: 0 15px;
+    }
+    
+    .left {
+        display: flex;
+        align-items: center;
+
+        .brand {
+            font-family: 'nasalization';
+            text-transform: uppercase;
+            font-size: 24px;
+            padding-left: 15px;
+        }
+        
+        .menu {
+            button {
+                appearance: none;
+                background: none;
+                border: none;
+                padding: 0;
+                padding-right: 10px;
+                font-weight: bold;
+                font-size: 16px;
+                color: white;
+                font-family: 'Lato';
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        align-content: center;
+    }
+}

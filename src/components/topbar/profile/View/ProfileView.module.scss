@@ -1,0 +1,62 @@
+@import '../../../../styles/typography';
+.info {
+  display: flex;
+  margin: 24px 0;
+  height: 200px;
+
+  > div {
+    flex: 1;
+
+    &:first-child {
+      margin-right: 30px;
+      flex: 0 0 34%;
+    }
+  }
+}
+
+
+img.userImg{
+  width:135px;
+  margin:5px;
+  border-radius:50%;
+  float:left;
+  height: 135px;
+}
+
+.userProfile{
+  background:#FFF;
+  border:1px solid #E6EAEE;
+  min-height:145px;
+  margin-bottom:30px;
+   & .userProfileDetails{
+        float:left;
+        margin-top:35px;
+      }
+}
+
+
+.profileDetailRow{
+  display: flex;
+  border-top: 1px solid #e6eaee;
+  height: 58px;
+  line-height: 22px;
+  padding: 12px 6px;
+  font-size: 14px;
+  font-family: Lato;
+  clear:both;
+  span.profileDetailLeft{
+    display: block;
+    width: 150px;
+    text-transform: uppercase;
+    color: #8C9EA7;
+    letter-spacing: 1.86px;	
+    padding-left: 10px;
+  }
+  span.profileDetailRight{
+    display: block;
+    color: #242E42;
+    letter-spacing: 0.1px;
+    margin-left: 155px;
+    
+  }
+}

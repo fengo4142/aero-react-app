@@ -1,0 +1,17 @@
+@mixin link() {
+  cursor: pointer;
+  color: #3A61A8;
+  &:before {
+      color: #3A61A8;
+      content: "";
+      display: inline-block;
+      width: 0.4rem;
+      height: 0.4rem;
+      border-right: 0.15rem solid #3A61A8;
+      border-top: 0.15rem solid #3A61A8;
+      -webkit-transform: rotate(225deg);
+      transform: rotate(225deg);
+      top: 13px;
+
+  }
+}

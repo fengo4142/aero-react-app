@@ -1,0 +1,44 @@
+
+label {
+  color: #8C9EA7;
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 26px;
+      
+  input:not([type='radio']):not([type='file']):not([type='checkbox']):not(.react-tagsinput-input) {
+    -webkit-appearance: none;
+    border: 1px solid #DCE0E6;
+    border-radius: 4px;
+    padding: 0 8px;
+    height: 36px;
+    font-size: 14px;
+    margin-left: 4px;
+  }
+  .invalid-feedback {
+    color:#F1592A;
+    display: none;
+  }
+}
+
+:global {
+  .validated {
+    input {
+      &:invalid {
+        border-color: #F1592A;
+
+        +.invalid-feedback {
+          display: block !important;
+        }
+      }
+    }
+  }
+}
+
+input[readonly]:not(.form-control):not([type='checkbox']) {
+  border: none !important;
+  padding: 0 !important;
+}
+
+input[type='file'] {
+  border: none !important;
+}

@@ -1,0 +1,97 @@
+.inspectionFields {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  max-width: 407px;
+  margin: 24px;
+  flex: 1 1 407px;
+  border: 1px solid #DCE0E6;
+  border-radius: 7px;
+  background-color: #ffffff;
+
+  .title {
+    color: #242E42;
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.13px;
+    line-height: 23px;
+    padding: 15px 18px 15px;
+    border-bottom: 1px solid #E6EAEE;
+  }
+
+  table {
+    border-collapse: collapse;
+
+    thead, tr {
+      border-bottom: 1px solid #E6EAEE;
+    }
+
+    tr:last-child {
+      border: none;
+    }
+  }
+
+  .tableHead {
+    height: 54px;
+
+    th:first-child {
+      padding: 0 16px;
+      max-width: 16px;
+    }
+
+    th {
+      height: 16px;
+      color: #8C9EA7;
+      font-family: Lato;
+      font-size: 13px;
+      letter-spacing: 1.86px;
+      line-height: 16px;
+      font-weight: normal;
+      text-transform: uppercase;
+      text-align: left;
+    }
+  }
+
+  .status {
+    text-align: center;
+    width: 100px;
+  }
+
+  .tableData {
+    min-height: 25px;
+    color: #242E42;
+    font-family: Lato;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    outline-color: #c5cfe4;
+    position: relative;
+    padding-right: 30px;
+  }
+
+  .active {
+    font-weight: bold;
+
+    &:after {
+      color: #8c9ea7;
+      content: "";
+      display: inline-block;
+      width: 0.4rem;
+      height: 0.4rem;
+      border-right: 0.15rem solid #8c9ea7;
+      border-top: 0.15rem solid #8c9ea7;
+      -webkit-transform: rotate(45deg) translateY(-50%);
+      transform: rotate(45deg) translateY(-50%);
+      top: 50%;
+      right: 0;
+      margin-right: 15px;
+      position: absolute;
+    }
+  }
+}
